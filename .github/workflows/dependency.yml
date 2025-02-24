@@ -4,7 +4,7 @@ on: push
 
 jobs:
   job-on-ubuntu: #don't need to directly give name attribute here #job1
-    runs-on: ubuntu latest
+    runs-on: ubuntu-latest
     steps:
       -    run: date
       -    run: pwd
